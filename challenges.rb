@@ -7,45 +7,24 @@
 
 # Given an array of strings, print only the strings that have exactly 4 characters.
 
-dogs = ["Ruby", "Linux", "Ralph", "Rust"]
 
-dogs.each do |dog|
-  if dog.length == 4
-    puts dog
-  end 
-end
 
 
 # Start with an array of strings with a mix of uppercase and lowercase letters. 
 # Print every word in all lowercase letters.
 
-friends = ["Akane", "Miles", "Shandra", "Hannah"]
 
-friends.each do |friend|
-  puts friend.downcase 
-end
 
 
 # Write a method or function that removes all instances of the letter s in a string. 
 # The method or function should accept a string as an argument and return the same string with every instance of the letter s removed.
 
-sentence = "This is a simple sample sentence."
 
-def remove_s(to_modify) 
-  return to_modify.delete("s") 
-end 
-
-puts remove_s(sentence)
 
 
 # Start with an array of hobbies. Print out only the words that end in "ing".
 
-hobbies = ["Trapeze", "Ice Skating", "Singing", "Piano"]
 
-
-hobbies.each do |hobby|
-  p hobbies.end_with?("ing")
-end
 
 
 # Start with an array of travel destinations. 
