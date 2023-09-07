@@ -29,9 +29,13 @@ end
 # Write a method or function that removes all instances of the letter s in a string. 
 # The method or function should accept a string as an argument and return the same string with every instance of the letter s removed.
 
-speak = "This is a simple sample sentence."
+sentence = "This is a simple sample sentence."
 
-p speak.delete("s") 
+def remove_s(to_modify) 
+  return to_modify.delete("s") 
+end 
+
+puts remove_s(sentence)
 
 
 # Start with an array of hobbies. Print out only the words that end in "ing".
@@ -57,3 +61,4 @@ end
 
 # Write a method or function that determines how much a person will pay in taxes in the United States based on their annual income. 
 # The method or function should accept a number representing the individual's annual income as an argument and return the amount they will owe in taxes for that year.
+
